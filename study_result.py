@@ -67,29 +67,3 @@ else:
 # g,h,i = map(int, input().split())
 # j = list(input()) #리스트 입력 받기, 입력할때 공백을 입력하면 공백도 요소로 들어감. 공백없이 연속해서 넣어야됨.
 
-
-
-
-
-
-
-
-
-
-
-# ord( ) 유니코드변환
-
-# while(조건식): 조건식이 참인동안 반복한다. 거짓인 상황이 나와야 반복이 멈춤
-
-# 출력 형태 2가지
-# 1. format : print('{}{}{}'.format(ㅁ,ㅅ,ㅇ))
-# 2. % : print('%d' %ㅁㅁㅁ)
-#     print('%04d' %)
-
-# 16진수 8진수등으로 입력 받는 법 / 출력하는 법
-# a = int(input(), 16)
-# print('%o' %a)
-
-# a = int(input(), 16);
-# for i in range(1,16):
-#     print("{:X}*{:X}={:X}".format(a,i,a*i))
